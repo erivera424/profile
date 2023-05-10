@@ -36,27 +36,34 @@ a:hover {
 }
 
 p {
-    font-size: 23px;
-    color: black;
-  }
+  font-size: 23px;
+  color: black;
+}
 
-  img {
-    height: 400px;
-    width: 300px;
-    object-fit: cover;
-    border-radius: 100%;
-  }
+img {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+}
 
-  .img-circle {
-    border-radius: 50%;
-  }
+.img-circle {
+  border-radius: 50%;
+}
 
-  .text-center {
-    text-align: center;
-  }
+.text-center {
+  text-align: center;
+}
 
-  .card-white {
-    background: white;
-    padding: 30px;
-    border: 1px solid lightgrey;
-  }
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+
+.container {
+  text-align: center;
+  width: 60vw;
+  margin: 0 auto;
+}
