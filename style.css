@@ -35,14 +35,28 @@ a:hover {
   transition: 1s ease;
 }
 
-p{
+p {
     font-size: 23px;
     color: black;
   }
 
-  img{
+  img {
     height: 400px;
     width: 300px;
     object-fit: cover;
     border-radius: 100%;
+  }
+
+  .img-circle {
+    border-radius: 50%;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .card-white {
+    background: white;
+    padding: 30px;
+    border: 1px solid lightgrey;
   }
